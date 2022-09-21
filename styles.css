@@ -16,10 +16,12 @@ html {
 }
 
 body {
+    
     max-width: 1400px;
     background-color: white;
 }
 
+/* -------------------------- */
 
 /* heights */
 
@@ -35,8 +37,12 @@ body {
     height: 465px
 }
 
-.content1-wrapper {
-    height: 490px;
+.content1-title {
+    height: 130px;
+}
+
+.content1 {
+    height: 365px;
 }
 
 .content2 {
@@ -51,6 +57,7 @@ body {
     height: 95px;
 }
 
+/* --------------------------- */
 
 /* layout */
 
@@ -117,9 +124,12 @@ body {
 
 .header2 button {
     margin: 10px 0 0 0;
+    width:120px;
+    height:40px;
 }
 
 .hero-img {
+    display: block;
     width: 500px;
     height: 250px;
 }
@@ -127,25 +137,18 @@ body {
 
 /* content1 */
 
-.content1-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 180px;
-    padding-top: 50px;
-
-}
 
 .content1-title {
     text-align: center;
 }
 
 .content1 {
-  
+    
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+
 }
 
 .c-img {
@@ -161,7 +164,6 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 0 285px;
-    /* align-items: center; */
 }
 
 /* cta */
@@ -178,11 +180,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 110px 0 120px;
+    width: 100%;
+    height: 150px;
 }
 
 /* footer */
 .footer {
-    flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,12 +216,11 @@ img.c-img {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 20px;
-    width: 100%;
-    height: 150px;
+
 }
 
 .hero-img {
-    display: block;
+    
     text-align: center;
     line-height: 250px;
     background-color: rgb(105, 110, 125);
@@ -239,8 +241,7 @@ img.c-img {
     border: none;
     color: white;
     border-radius: 10px;
-    width:120px;
-    height:40px;
+
     font-size: 18px;
     font-weight: bold;
 }
@@ -255,6 +256,7 @@ img.c-img {
     font-size: 36px;
     font-weight: 600;
     color: #1f2937;
+    line-height: 130px;
 }
 
 .c-img p {
@@ -285,7 +287,7 @@ img.c-img {
 
 .cta .second {
     font-size: 18px;
-    max-width: 600px;
+    
 
 }
 
