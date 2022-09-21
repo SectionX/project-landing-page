@@ -4,33 +4,55 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* border: 2px solid white; */
-}
-
-html {
-    margin: -10px;
+    padding: 0;
+    margin: 0;
 }
 
 
 html {
-    padding: 0px;
-    margin: 0px;
-    border: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+body {
+    max-width: 1400px;
+    background-color: white;
 }
 
 
-.header1,
+/* heights */
+
+.header1 {
+    height: 60px;
+}
+
 .footer {
     height: 140px;
 }
 
-.header2,
-.content1,
-.content2,
-.cta {
-    height:450px;
-    margin:0px;
+.header2 {
+    height: 465px
 }
 
+.content1 {
+    height: 465px;
+}
+
+.content2 {
+    height: 420px;
+}
+
+.cta {
+    height: 350px;
+}
+
+.footer {
+    height: 80px;
+}
+
+
+/* layout */
 
 .header1,
 .header2,
@@ -38,7 +60,7 @@ html {
 .content2,
 .cta,
 footer {
-    padding: 0px 150px;
+    padding: 0px 200px;
 }
 
 
@@ -76,10 +98,17 @@ body {
 
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.header2cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 225px;
 }
 
 /* content1 */
@@ -93,6 +122,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 48px;
+}
+
+.c-img {
+    width: 166px;
+    height: 166px;
 }
 
 
@@ -134,8 +169,6 @@ img.c-img {
     display: inline-block;
     border: 5px solid #3882f6;
     border-radius: 10%;
-    width: 200px;
-    height: 200px;
 }
 
 .content2 {
@@ -146,22 +179,16 @@ img.c-img {
 .cta {
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 20px 200px;
     border-radius: 20px;
 }
 
 .hero-img {
     display: inline-block;
     background-color: #e5e7eb;
-    width: 400px;
-    height: 150px;
 }
 
 .hero-text h2 {
-    width: 400px;
-    height: 130px;
     font-size: 48px;
-
     font-weight: 600;
 }
 
@@ -192,8 +219,6 @@ img.c-img {
     font-weight: 600;
     text-align: right;
 }
-
-
 
 
 .footer {
