@@ -22,3 +22,13 @@ applications, is to use the following tag:
 
 Just don't forget to disable it for your final version.
 
+
+
+# Update:
+
+Finally finished. Perhaps playing around with media queries was a bit too much for now. I spent a lot of time making it responsive so I will probably take a break from
+any other smart ideas like scripting a webpage maker. I'm quite proud of the result though.
+Sure, media queries are a bit rushed and the dimensions aren't great but I don't think it's
+too bad.
+
+For anyone reading this, good luck in your next assignments.
