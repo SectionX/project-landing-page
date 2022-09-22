@@ -417,6 +417,10 @@ footer {
         font-size: 24px;
     }
 
+    .footer {
+        font-size: 18px;
+    }
+
 
 }
 
@@ -435,5 +439,10 @@ footer {
 
     .footer {
         font-size: 18px;
+    }
+
+    .c-img {
+        width: 140px;
+        height: 140px;
     }
 }
