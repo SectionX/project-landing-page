@@ -283,10 +283,12 @@ img.c-img {
     font-size: 23px;
     font-weight: bold;
     margin-bottom: 5px;
+    min-width: 270px;
 }
 
 .cta .second {
     font-size: 18px;
+    min-width: 270px;
     
 
 }
@@ -296,7 +298,7 @@ img.c-img {
     border: 3.5px solid #e5e7eb;
     color: white;
     border-radius: 10px;
-    width:120px;
+    min-width:120px;
     height:40px;
     font-size: 18px;
     font-weight: bold;
@@ -323,7 +325,7 @@ footer {
 
 @media (max-width: 1200px) {
     .header2 {min-height:800px;
-    padding: 0 100px;
+    padding: 0 100px 0px 100px;
     }
 
     .header2cnt {
@@ -333,7 +335,7 @@ footer {
     }
 
     .hero-text {
-        padding: 0;
+        margin: 0;
         text-align: center;
     }
 
@@ -347,8 +349,91 @@ footer {
         padding: 0 80px;
     }
 
-    .ctacontainer {
+    /* .ctacontainer {
         min-width: 320px;
         padding-top: 0 30px;
+        flex-wrap: wrap;
+        align-content: space-between;
+    } */
+}
+
+@media (max-width: 710px) {
+
+    .content1 {
+        padding: 0 50px 150px;
+        height: 600px;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    .header1 {
+        padding: 0 100px;
+    }
+
+    * {
+        min-width: 0;
+        min-height: 0;
+        flex-shrink: 1;
+    }
+
+}
+
+
+
+@media (max-width: 610px) {
+    .hero-img{
+        height: 150px;
+        min-width: 300px;
+        line-height: 150px;
+    }
+
+    .content1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .content2 .first{
+        margin-bottom: 30px;
+    }
+
+    .content2 {
+        padding: 10px 30px;
+    }
+
+
+    .header1 {
+        padding: 0;
+    }
+
+    .cta-container {
+        padding: 15px 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .content1-title {
+        font-size: 24px;
+    }
+
+
+}
+
+
+@media (max-width: 372px) {
+
+    .content2 p.first {
+        font-size: 28px;
+    }
+
+    .content1 {
+        padding: 0 0 80px 0 ;
+        gap: 0;
+        align-content: space-around;
+    }
+
+    .footer {
+        font-size: 18px;
     }
 }
